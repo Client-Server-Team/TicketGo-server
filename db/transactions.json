@@ -2,13 +2,13 @@
     {
         "UserId": 1,
         "TicketId": 1,
-        "TotalPrice": 1500000,
-        "TotalQuantity": 1
+        "totalPrice": 1500000,
+        "totalQuantity": 1
     },
     {
         "UserId": 2,
         "TicketId": 2,
-        "TotalPrice": 1700000,
-        "TotalQuantity": 2
+        "totalPrice": 1700000,
+        "totalQuantity": 2
     }
 ]
