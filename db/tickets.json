@@ -1,0 +1,203 @@
+[
+    {
+      "id": 1,
+      "name": "Coldplay - Music of the Spheres",
+      "imageUrl": "https://i.pinimg.com/736x/d3/e5/22/d3e522ae456a3b25a5d958af401ba207.jpg",
+      "description": "Coldplay, dengan penampilan panggung yang memukau dan efek visual yang menakjubkan, akan membawa penonton dalam sebuah perjalanan musikal yang penuh emosi. 'Music of the Spheres' adalah pengalaman konser yang luar biasa, di mana setiap lagu dihiasi dengan pemandangan langit dan atmosfer luar angkasa, menciptakan sebuah dunia yang penuh imajinasi dan keajaiban.",
+      "quantity": 70000,
+      "price": 1500000,
+      "date": "2025-08-01T19:30:00+07:00",
+      "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+    },
+    {
+      "id": 2,
+      "name": "Metallica - WorldWired Tour",
+      "imageUrl": "https://www.tallengestore.com/cdn/shop/products/Metallica-LiveInConcertLouisville2019-RockandMetalMusicConcertPoster_cb7f32f9-33c1-4994-96be-3d665f49fedf.jpg?v=1670574379",
+      "description": "Metallica, salah satu band heavy metal paling ikonik di dunia, akan membawakan lagu-lagu legendaris dari sepanjang karier mereka dalam tur 'WorldWired'. Energi luar biasa, riff gitar yang menghentak, dan suara bass yang kuat akan membanjiri stadion, membawa para penggemar ke dalam dunia musik metal yang penuh kekuatan dan intensitas.",
+      "quantity": 60000,
+      "price": 1700000,
+      "date": "2025-09-10T20:00:00+07:00",
+      "location": "Jakarta International Stadium"
+    },
+    {
+      "id": 3,
+      "name": "BTS - Permission to Dance",
+      "imageUrl": "https://www.dreamers.id/img_editor/39989/images/bts-tour-seoul.jpeg",
+      "description": "BTS kembali dengan 'Permission to Dance' world tour yang penuh dengan tarian enerjik, vokal yang memukau, dan keseruan K-pop. Konser ini menawarkan pengalaman yang tidak terlupakan dengan panggung yang megah, efek visual canggih, dan setlist lagu-lagu hits dari berbagai album mereka, menjadikannya salah satu konser paling dinanti di Asia.",
+      "quantity": 80000,
+      "price": 2000000,
+      "date": "2025-07-15T19:00:00+07:00",
+      "location": "Stadion Gelora Bung Tomo, Surabaya"
+    },
+    {
+      "id": 4,
+      "name": "Imagine Dragons - Mercury Tour",
+      "imageUrl": "https://res.klook.com/image/upload/x_574,y_0,w_771,h_1080,c_crop/c_scale,w_360/v1723180105/events_admin/dj1ux30lpxumwd3pq0ps.jpg",
+      "description": "Imagine Dragons menghadirkan tur 'Mercury' yang menghadirkan kombinasi antara rock alternatif dan elektronik dengan lirik yang dalam dan penuh makna. Konser ini akan membawa penonton pada perjalanan musikal yang menggugah hati, penuh energi dengan visual yang spektakuler, dan tentunya penampilan live yang luar biasa dari para personel band.",
+      "quantity": 50000,
+      "price": 1300000,
+      "date": "2025-10-05T20:00:00+07:00",
+      "location": "Stadion Manahan, Solo"
+    },
+    {
+      "id": 5,
+      "name": "BLACKPINK - Born Pink World Tour",
+      "imageUrl": "https://pbs.twimg.com/media/FjWLpkTUoAAJ6C3.jpg:large",
+      "description": "BLACKPINK membawa tur dunia 'Born Pink' ke Indonesia dengan penampilan yang glamor dan luar biasa. Dikenal dengan koreografi yang kuat, kostum yang menawan, dan kekuatan vokal yang mengesankan, konser ini akan menawarkan pengalaman visual dan musik yang spektakuler. Setiap lagu yang dibawakan akan membawa penonton semakin dekat dengan dunia K-pop yang penuh energi.",
+      "quantity": 75000,
+      "price": 1800000,
+      "date": "2025-08-20T19:30:00+07:00",
+      "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+    },
+    {
+      "id": 6,
+      "name": "Foo Fighters - Everything or Nothing",
+      "imageUrl": "https://i.pinimg.com/474x/ea/b2/de/eab2debf2eac6d3747393fd8738e7773.jpg",
+      "description": "Foo Fighters hadir dengan konser yang penuh dengan semangat rock yang energik dan lagu-lagu legendaris mereka. 'Everything or Nothing' tour membawa energi luar biasa dan koneksi emosional antara band dan penggemar, menciptakan suasana yang meriah dengan riff gitar yang keras dan vokal khas Dave Grohl yang memukau.",
+      "quantity": 55000,
+      "price": 1400000,
+      "date": "2025-09-25T20:30:00+07:00",
+      "location": "Jakarta International Stadium"
+    },
+    {
+      "id": 7,
+      "name": "Bruno Mars - 24K Magic Tour",
+      "imageUrl": "https://awsimages.detik.net.id/community/media/visual/2024/06/21/bruno-mars_34.jpeg?w=1200",
+      "description": "Bruno Mars kembali dengan konser '24K Magic' yang memukau, membawa penonton pada perjalanan musik penuh dengan funk, pop, dan R&B. Dengan penampilan panggung yang luar biasa dan koreografi yang energik, Bruno Mars akan menghipnotis penonton dengan suara khasnya dan kehadiran panggung yang penuh pesona.",
+      "quantity": 60000,
+      "price": 1600000,
+      "date": "2025-07-30T20:00:00+07:00",
+      "location": "Stadion Si Jalak Harupat, Bandung"
+    },
+    {
+      "id": 8,
+      "name": "Ariana Grande - Sweetener Tour",
+      "imageUrl": "https://i.pinimg.com/originals/c4/95/27/c49527dcb503f03a88d8cf362a9f570c.png",
+      "description": "Ariana Grande hadir dengan konser spektakuler yang menggabungkan suara luar biasa dengan pertunjukan visual yang mengagumkan. 'Sweetener Tour' akan membawa penggemar menyelami dunia Ariana yang penuh dengan hits terbesar dari album-album terbaru dan klasik, memberikan pengalaman yang penuh dengan emosi, pesona, dan tentunya penampilan vokal yang memukau.",
+      "quantity": 65000,
+      "price": 1700000,
+      "date": "2025-11-10T19:30:00+07:00",
+      "location": "Stadion Gelora Bung Tomo, Surabaya"
+    },
+    {
+      "id": 9,
+      "name": "Linkin Park Tribute - Hybrid Theory Live",
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSfqPB3UOqi7r_TqyA3NuoEPvCdUsDyL0Uwq6bpipc7MbeYSxWvKZ4shTS52p2WNsmEqj-bPurDVw3pjVW1narbUt6W-bVRDvr4kzxI5M_7zsqqPgNBjVhyiwH7541VTAbZQWr-dLzts0-/s1600/site.jpg",
+      "description": "Konser tribute untuk mengenang Linkin Park dan vokalis legendaris mereka, Chester Bennington. 'Hybrid Theory Live' membawa kembali semangat musik nu-metal yang menggebrak dengan lagu-lagu hits dari album ikonik mereka. Konser ini penuh dengan emosi, mengenang kontribusi Linkin Park dalam dunia musik dan menghidupkan kembali kenangan bagi para penggemar.",
+      "quantity": 50000,
+      "price": 1100000,
+      "date": "2025-10-20T20:00:00+07:00",
+      "location": "Stadion Pakansari, Bogor"
+    },
+    {
+      "id": 10,
+      "name": "Taylor Swift - The Eras Tour",
+      "imageUrl": "https://images-cdn.ubuy.co.id/6490a79e39093d0204140755-taylor-swift-2023-eras-tour-14x24.jpg",
+      "description": "Konser terbesar dari Taylor Swift, merayakan perjalanan musiknya dari album pertama hingga terbaru. 'The Eras Tour' menyuguhkan penampilan yang menakjubkan, menghidupkan kembali setiap era musikal Taylor dengan penataan panggung yang megah dan penampilan yang memukau. Penonton akan dibawa dalam perjalanan penuh nostalgia dan emosi.",
+      "quantity": 90000,
+      "price": 2200000,
+      "date": "2025-09-15T19:00:00+07:00",
+      "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+    },
+    {
+      "id": 11,
+      "name": "Maroon 5 - Red Pill Blues Tour",
+      "imageUrl": "https://cms.disway.id/uploads/a5e6ab429ef506659e3cc509f12aa3d9.jpg",
+      "description": "Maroon 5 kembali dengan 'Red Pill Blues Tour', membawa penonton menikmati lagu-lagu hits mereka dalam konser yang penuh dengan atmosfer pop dan R&B. Dengan vokal khas Adam Levine, konser ini menawarkan pengalaman visual yang luar biasa dan tentunya penampilan panggung yang penuh semangat, yang akan membuat penonton bergoyang sepanjang malam.",
+      "quantity": 55000,
+      "price": 1500000,
+      "date": "2025-08-12T20:00:00+07:00",
+      "location": "Stadion Patriot, Bekasi"
+    },
+    {
+      "id": 12,
+      "name": "Ed Sheeran - Mathematics Tour",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODIyZWRjYmMtYjI5ZS00OWY3LWE3OTMtMGE2M2U0MGUzNDUyXkEyXkFqcGc@._V1_.jpg",
+      "description": "Ed Sheeran kembali dengan tur dunia 'Mathematics' yang memukau, di mana ia akan membawakan lagu-lagu dari album terbarunya dan hits yang sudah menjadi favorit penggemar. Dengan penampilan akustik yang intim dan penataan panggung yang sederhana namun penuh makna, konser ini menawarkan pengalaman musik yang menyentuh hati.",
+      "quantity": 70000,
+      "price": 1750000,
+      "date": "2025-10-02T19:30:00+07:00",
+      "location": "Stadion Gelora Bandung Lautan Api"
+    },
+    {
+      "id": 13,
+      "name": "The Weeknd - After Hours Til Dawn",
+      "imageUrl": "https://www.postersplug.com/cdn/shop/products/the-weeknd-blinding-performance-poster-598546.jpg?v=1692903557",
+      "description": "The Weeknd hadir dengan konser yang menggabungkan musik elektronik, R&B, dan atmosfer gelap yang menjadi ciri khasnya. 'After Hours Til Dawn' menawarkan penampilan panggung yang dramatis dan visual yang mencolok, dengan lagu-lagu hits dari album 'After Hours' dan 'Dawn FM'. Konser ini akan membawa penonton pada perjalanan melalui dunia kelam yang penuh dengan pesona.",
+      "quantity": 60000,
+      "price": 1800000,
+      "date": "2025-11-18T20:00:00+07:00",
+      "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+    },
+    {
+      "id": 14,
+      "name": "Green Day - Hella Mega Tour",
+      "imageUrl": "https://m.media-amazon.com/images/I/61yesm9hiAL.jpg",
+      "description": "Green Day, bersama dengan Weezer dan Fall Out Boy, hadir dalam tur 'Hella Mega Tour' yang penuh dengan energi rock punk. Konser ini akan membawa penonton dalam atmosfer rock yang tak terkalahkan, dengan lagu-lagu ikonik seperti 'Boulevard of Broken Dreams' dan 'American Idiot', menyuguhkan pengalaman konser yang penuh semangat.",
+      "quantity": 50000,
+      "price": 1450000,
+      "date": "2025-08-25T19:30:00+07:00",
+      "location": "Stadion Gelora Bung Tomo, Surabaya"
+    },
+    {
+      "id": 15,
+      "name": "OneRepublic - Human Tour",
+      "imageUrl": "https://www.lazone.id/news/wpold_mew-club-8-one-republic-kembali-main-di-jakarta.jpg8723",
+      "description": "OneRepublic dengan 'Human Tour' membawa penonton pada perjalanan emosional dengan lagu-lagu yang menyentuh dan visual yang memukau. Tur ini menyajikan perpaduan antara pop, rock, dan elektronik yang akan membuat setiap penonton terhubung dengan setiap lirik yang dibawakan, menciptakan pengalaman yang tak terlupakan.",
+      "quantity": 45000,
+      "price": 1350000,
+      "date": "2025-07-22T20:30:00+07:00",
+      "location": "Stadion Patriot, Bekasi"
+    },
+    {
+      "id": 16,
+      "name": "Red Hot Chili Peppers - Global Tour",
+      "imageUrl": "https://i.etsystatic.com/23211918/r/il/0e774c/5882592649/il_fullxfull.5882592649_98am.jpg",
+      "description": "Red Hot Chili Peppers kembali dengan tur 'Global Tour' yang membawa energi funk rock yang tiada duanya. Konser ini akan memanjakan penggemar dengan riff gitar yang ikonik, bass yang menghentak, dan vokal unik Anthony Kiedis. Konser ini adalah sebuah perayaan akan warisan musik yang telah menginspirasi banyak generasi.",
+      "quantity": 10,
+      "price": 1600000,
+      "date": "2025-09-05T19:30:00+07:00",
+      "location": "Stadion Si Jalak Harupat, Bandung"
+    },
+    {
+      "id": 17,
+      "name": "Post Malone - Twelve Carat Tour",
+      "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/79ea522c-f7f4-45bd-bb1f-e80bfdf27bf5/dfoe59c-79aa09e1-da7f-45af-821f-c683e2e89e70.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzc5ZWE1MjJjLWY3ZjQtNDViZC1iYjFmLWU4MGJmZGYyN2JmNVwvZGZvZTU5Yy03OWFhMDllMS1kYTdmLTQ1YWYtODIxZi1jNjgzZTJlODllNzAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rgOum1nDUXw4L5JQLkDtmqHvlSlQTEZOHr67Lvja45w",
+      "description": "Post Malone kembali dengan tur 'Twelve Carat Tour', menggabungkan hip-hop, rock, dan elemen musik lainnya dalam penampilan yang penuh energi. Konser ini menawarkan pengalaman yang sangat unik, dengan suara Post Malone yang khas dan setlist yang mencakup lagu-lagu terpopuler sepanjang kariernya.",
+      "quantity": 10,
+      "price": 1650000,
+      "date": "2025-11-02T20:00:00+07:00",
+      "location": "Stadion Gelora Bandung Lautan Api"
+    },
+    {
+      "id": 18,
+      "name": "The Chainsmokers - World War Joy",
+      "imageUrl": "https://i.ebayimg.com/images/g/dKIAAOSwaeRZGf~R/s-l1200.jpg",
+      "description": "The Chainsmokers membawa tur 'World War Joy' ke Indonesia, menghadirkan energi musik elektronik dan pop yang mendalam dengan berbagai hit terkenal mereka. Konser ini tidak hanya menyajikan musik, tetapi juga pengalaman visual yang luar biasa, yang akan membuat penonton terus berdansa sepanjang malam.",
+      "quantity": 10,
+      "price": 1500000,
+      "date": "2025-10-28T19:00:00+07:00",
+      "location": "Jakarta International Stadium"
+    },
+    {
+      "id": 19,
+      "name": "Bring Me The Horizon - Post Human: Survival Horror Tour",
+      "imageUrl": "https://i.pinimg.com/736x/cb/5b/32/cb5b32b981d5ca58b778963e2f65692a.jpg",
+      "description": "Bring Me The Horizon kembali dengan tur dunia 'Post Human: Survival Horror', membawa penonton pada pengalaman musik metalcore yang penuh dengan kekuatan dan intensitas. Tur ini menyajikan lagu-lagu dari album terbaru mereka, yang menggali tema-tema kelam tentang peradaban dan perjuangan manusia.",
+      "quantity": 10,
+      "price": 1450000,
+      "date": "2025-09-12T20:00:00+07:00",
+      "location": "Stadion Pakansari, Bogor"
+    },
+    {
+      "id": 20, 
+      "name": "The 1975 - At Their Very Best",
+      "imageUrl": "https://i.pinimg.com/736x/54/b8/92/54b89213ea58925bc8e3a1e5ae166a12.jpg",
+      "description": "The 1975 membawa tur 'At Their Very Best' dengan suara eksperimental yang memadukan pop, elektronik, dan rock indie. Konser ini menyuguhkan pengalaman yang sangat artistik dengan visual yang unik dan penampilan panggung yang penuh dengan nuansa futuristik. Setiap lagu mereka memberikan pesan yang kuat tentang kehidupan dan budaya modern.",
+      "quantity": 10,
+      "price": 1550000,
+      "date": "2025-08-18T19:30:00+07:00",
+      "location": "Stadion Manahan, Solo"
+    }
+  ]
+  
