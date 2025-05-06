@@ -2,3 +2,11 @@ npx sequelize db:drop
 npx sequelize db:create
 npx sequelize db:migrate
 npx sequelize db:seed:all
+
+
+npx sequelize model:create --name "Ticket" --attributes name:string,imageUrl:text,description:text,quantity:integer,price:integer,date:date,location:string
+npx sequelize model:create --name "Transaction" --attributes UserId:integer,TicketId:integer,totalPrice:integer,totalQuantity:integer
+npx sequelize model:create --name "User" --attributes username:string,email:string,password:string
+
+
+npx sequelize seed:create --name insertData
