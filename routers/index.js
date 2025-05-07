@@ -11,7 +11,7 @@ const errorHandler = require("../middlewares/errorHandler");
 router.post("/register", UserController.register);
 router.post("/login", UserController.login);
 
-router.get("/tickets", authenticate, TicketsController.getAllTickets);
+router.get("/tickets", TicketsController.getAllTickets);
 router.get("/tickets/:id", authenticate, TicketsController.getTicketById);
 router.get("/tickets/:id/summary", authenticate, TicketsController.getTicketSummary);
 // router.post("/tickets/:id/buy", authorization, TransactionsController.buyTicket);
