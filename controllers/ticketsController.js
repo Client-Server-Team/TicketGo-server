@@ -18,7 +18,7 @@ class TicketsController {
       if (!tickets) {
         throw {
           name: "NotFound",
-          message: `Country with id ${ticketsId} not found`,
+          message: `Ticket with id ${ticketsId} not found`,
         };
       }
       res.status(200).json(tickets);
