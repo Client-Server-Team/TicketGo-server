@@ -10,10 +10,10 @@ const errorHandler = require("../middlewares/errorHandler");
 // add routers here
 router.post("/register", UserController.register);
 router.post("/login", UserController.login);
-router.use(authenticate);
-router.get("/tickets", TicketsController.getAllTickets);
-router.get("/tickets/:id", TicketsController.getTicketById);
-router.get("/tickets/:id/summary", TicketsController.getTicketSummary);
+
+router.get("/tickets", authenticate, TicketsController.getAllTickets);
+router.get("/tickets/:id", authenticate, TicketsController.getTicketById);
+router.get("/tickets/:id/summary", authenticate, TicketsController.getTicketSummary);
 // router.post("/tickets/:id/buy", authorization, TransactionsController.buyTicket);
 router.use(errorHandler);
 
