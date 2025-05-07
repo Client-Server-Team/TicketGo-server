@@ -49,14 +49,40 @@ class TicketsController {
         .join("\n");
 
       const prompt = `Berdasarkan genre konser "${ticket.genre}", berikut adalah rekomendasi konser lain dengan genre yang sama:\n${otherDescriptions}\n\nBerikan rekomendasi aktivitas atau tips untuk penonton konser "${ticket.name}":\n${ticket.description}`;
-
       const recommendation = await generateContent(prompt);
+
+      const prompt_global = `
+
+        Berdasarkan genre konser "${ticket.genre}", 
+        Berikan rekomendasi 1 konser lain dengan genre yang sama dalam bentuk json seperti berikut
+
+        {
+          name : 'nama dari konser',
+          genre : 'genre dari konser',
+          imageUrl : 'url image dari konser',
+          description : 'deskripsi dari konser tersebut',
+          quantity : 'quantity penonton dari konser tersebut',
+          date : 'date dari konser akan berlangsung dengan format seperti berikut 2025-05-07T03:31:19.331Z'
+          location: 'Coming Soon'
+        }
+
+      `
+
+      let resGlobal = await generateContent(prompt_global)
+      resGlobal = JSON.parse(resGlobal.replace("```json","").replace("```",""))
+      // res.status(200).json({
+      //   resGlobal
+      // });
+
+      otherTickets.push(resGlobal)
 
       res.status(200).json({
         ticket: ticket,
         recommendation,
         otherTickets,
       });
+
+
     } catch (error) {
       next(error);
     }
