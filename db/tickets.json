@@ -170,7 +170,7 @@
     "genre": "Jazz / Soul",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc0MjE2MzcyNl5BMl5BanBnXkFtZTgwMzE0NzI5MTE@._V1_.jpg",
     "description": "Alicia Keys akan memukau Jakarta dengan performa soulful-nya dalam 'Keys to Soul Tour', membawakan lagu-lagu penuh makna dan keindahan melodi.",
-    "quantity": 40000,
+    "quantity": 5,
     "price": 1600000,
     "date": "2025-10-10T20:00:00+07:00",
     "location": "Jakarta International Expo, Kemayoran"
@@ -181,7 +181,7 @@
     "genre": "Alternative Rock / Pop Rock",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzc0MWYwZWEtOTUwZi00ZjhkLTk4ODAtNTg2ZTdiYmE5ZTY4XkEyXkFqcGc@._V1_.jpg",
     "description": "Paramore akan kembali mengguncang Jakarta lewat konser 'This Is Why', membawa semangat alternatif rock yang enerjik dan lirik emosional yang mengena.",
-    "quantity": 55000,
+    "quantity": 5,
     "price": 1700000,
     "date": "2025-09-15T20:00:00+07:00",
     "location": "Beach City International Stadium, Ancol"
@@ -192,7 +192,7 @@
     "genre": "Pop / Acoustic",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmFkZDE2ZDItZmU1YS00ZmRhLTljZTgtODQ4ZDk4Nzk4ZjA4XkEyXkFqcGc@._V1_.jpg",
     "description": "Lana Del Rey akan hadir dengan nuansa dreamy dan melankolis khasnya dalam konser 'Chemtrails', membawakan lagu-lagu yang puitis dan penuh suasana.",
-    "quantity": 22000,
+    "quantity": 5,
     "price": 1900000,
     "date": "2025-12-18T20:00:00+07:00",
     "location": "Ciputra Artpreneur Theater, Jakarta"
@@ -203,7 +203,7 @@
     "genre": "Pop / Soul",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjNkZTcwZmQtZmEwZS00ZTI4LTk1YjEtNmM4NWI3ODAxMTBlXkEyXkFqcGc@._V1_.jpg",
     "description": "Sam Smith kembali ke Indonesia lewat 'Gloria Tour', membawa lagu-lagu penuh perasaan dan penampilan yang penuh penghayatan serta kehangatan suara.",
-    "quantity": 48000,
+    "quantity": 5,
     "price": 2100000,
     "date": "2025-11-22T20:00:00+07:00",
     "location": "Jakarta International Expo, Kemayoran"
@@ -214,7 +214,7 @@
     "genre": "Alternative Rock / Soul",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWZkZTU5NzAtZDhlMi00YzAyLTkyZmEtOTUyZDdiNzlkM2RmXkEyXkFqcGc@._V1_.jpg",
     "description": "Hozier akan menghidupkan malam Jakarta lewat 'Unreal Unearth Tour', konser dengan kekuatan vokal dan nuansa musik yang gelap, mendalam, dan penuh makna.",
-    "quantity": 39000,
+    "quantity": 5,
     "price": 1800000,
     "date": "2025-12-20T20:00:00+07:00",
     "location": "Beach City International Stadium, Ancol"
