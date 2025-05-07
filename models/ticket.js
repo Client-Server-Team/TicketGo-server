@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
   Ticket.init(
     {
       name: DataTypes.STRING,
+      genre: DataTypes.STRING,
       imageUrl: DataTypes.TEXT,
       description: DataTypes.TEXT,
       quantity: DataTypes.INTEGER,
