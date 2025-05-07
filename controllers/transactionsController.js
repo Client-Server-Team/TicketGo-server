@@ -5,7 +5,7 @@ class TransactionsController {
         try {
             const {id} = req.user
             
-            const data = await Transaction.findOne({
+            const data = await Transaction.findAll({
                 where : {
                     UserId : +id
                 },

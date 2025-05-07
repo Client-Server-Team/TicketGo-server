@@ -7,6 +7,10 @@ const errorHandler = require("../middlewares/errorHandler");
 const TransactionsController = require("../controllers/transactionsController");
 const authorization = require("../middlewares/authorization");
 
+const { createServer } = require("http");
+const { Server } = require("socket.io");
+
+
 // add routers here
 router.post("/register", UserController.register);
 router.post("/login", UserController.login);
