@@ -1,4 +1,4 @@
-const {Transaction} = require("../models");
+const {Ticket} = require("../models");
 
 const authorization = async (req, res, next) => {
   try {

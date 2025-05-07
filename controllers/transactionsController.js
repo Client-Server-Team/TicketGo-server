@@ -53,7 +53,22 @@ class TransactionsController {
                 totalQuantity : +totalQuantity
             }
 
+            const dataTicket = await Ticket.findOne({
+                where : {
+                    id : ticketId
+                }
+            })
+
+            if (dataTicket.quantity < totalQuantity) {
+                throw {name : 'BadRequest', message : 'Ticket not available'}
+            }
+
             const data = await Transaction.create(newBody)
+            await Ticket.decrement('quantity', {
+                by: totalQuantity,
+                where: { id: ticketId }
+            });
+            
             res.status(201).json(data)
 
         } catch (error) {
