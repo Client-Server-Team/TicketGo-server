@@ -6,6 +6,8 @@ const TicketsController = require("../controllers/ticketsController");
 // const authorization = require("../middlewares/authorization");
 const authenticate = require("../middlewares/authentication");
 const errorHandler = require("../middlewares/errorHandler");
+const TransactionsController = require("../controllers/transactionsController");
+const authorization = require("../middlewares/authorization");
 
 // add routers here
 router.post("/register", UserController.register);
@@ -15,6 +17,9 @@ router.get("/tickets", TicketsController.getAllTickets);
 router.get("/tickets/:id", authenticate, TicketsController.getTicketById);
 router.get("/tickets/:id/summary", authenticate, TicketsController.getTicketSummary);
 // router.post("/tickets/:id/buy", authorization, TransactionsController.buyTicket);
+
+router.get("/myticket/:id", authenticate, authorization,TransactionsController.getTransactionById)
+
 router.use(errorHandler);
 
 module.exports = router;

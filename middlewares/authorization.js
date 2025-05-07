@@ -1,26 +1,23 @@
-const {Review} = require("../models");
+const {Transaction} = require("../models");
 
-const guardOwner = async (req, res, next) => {
+const authorization = async (req, res, next) => {
   try {
-    const reviewId = req.params.id;
-    const review = await Review.findByPk(reviewId);
 
-    if (!review) {
-      return next({name: "NotFound", message: "Review not found"});
+    const {id} = req.params
+    const trans = await Transaction.findByPk(id);
+
+    if (!trans) {
+      throw {name: "NotFound", message: `Transaction with id ${id} not found`};
     }
 
-    if (review.userId !== req.user.id) {
-      return next({
-        name: "Forbidden",
-        message: "You are not allowed to access this resource",
-      });
+    if (trans.UserId !== req.user.id) {
+      throw {name : 'Forbidden', message : `You're not authorized`}
     }
 
-    req.review = review;
     next();
   } catch (error) {
     next(error);
   }
 };
 
-module.exports = guardOwner;
+module.exports = authorization;
