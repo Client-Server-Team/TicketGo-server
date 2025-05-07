@@ -17,7 +17,7 @@ router.get("/tickets", TicketsController.getAllTickets);
 router.get("/tickets/:id", authenticate, TicketsController.getTicketById);
 router.get("/tickets/:id/summary", authenticate, TicketsController.getTicketSummary);
 
-router.get("/myticket", authenticate,TransactionsController.getTransactionById)
+router.get("/myticket", authenticate,TransactionsController.getTransactionByUserId)
 router.post("/myticket/:id", authenticate, authorization,TransactionsController.buyTicket)
 
 router.use(errorHandler);
