@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Britney Spears - Unusual You Live Tour",
+    "genre": "Synth-pop / Electro-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzYzMjY2MF5BMl5BanBnXkFtZTcwODAyMTk2Nw@@._V1_.jpg",
+    "description": "Konser eksklusif Britney Spears - Unusual You yang membawa nuansa synth-pop / electro-pop, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 50958,
+    "price": 1500000,
+    "date": "2025-07-01T20:00:00+07:00",
+    "location": "The Kasablanka Hall, Jakarta"
+  },
+  {
+    "id": 2,
+    "name": "Charli XCX - Break the Rules Live Tour",
+    "genre": "Synth-pop / Electro-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmI5ZWE0ZTgtZTRmMi00YzRmLWJjMTctOTU1YjNjYTRmMTRjXkEyXkFqcGc@._V1_.jpg",
+    "description": "Konser eksklusif Charli XCX - Break the Rules yang membawa nuansa synth-pop / electro-pop, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 41723,
+    "price": 2500000,
+    "date": "2025-10-21T20:00:00+07:00",
+    "location": "The Kasablanka Hall, Jakarta"
+  },
+  {
+    "id": 3,
+    "name": "Chvrches - Leave a Trace Live Tour",
+    "genre": "Synth-pop / Electro-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjI2MjE1Nzg4MF5BMl5BanBnXkFtZTcwMTYzMjU0NA@@._V1_.jpg",
+    "description": "Konser eksklusif Chvrches - Leave a Trace yang membawa nuansa synth-pop / electro-pop, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 40714,
+    "price": 2000000,
+    "date": "2025-10-14T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 4,
+    "name": "Tove Lo - Habits (Stay High) Live Tour",
+    "genre": "Synth-pop / Electro-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjEwODQxNzU0MF5BMl5BanBnXkFtZTgwMjU3NDg5MzE@._V1_.jpg",
+    "description": "Konser eksklusif Tove Lo - Habits (Stay High) yang membawa nuansa synth-pop / electro-pop, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 15668,
+    "price": 1800000,
+    "date": "2025-08-16T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 5,
+    "name": "Grimes - Oblivion Live Tour",
+    "genre": "Synth-pop / Electro-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmI5ZWE0ZTgtZTRmMi00YzRmLWJjMTctOTU1YjNjYTRmMTRjXkEyXkFqcGc@._V1_.jpg",
+    "description": "Konser eksklusif Grimes - Oblivion yang membawa nuansa synth-pop / electro-pop, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 47983,
+    "price": 1500000,
+    "date": "2025-07-24T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 6,
+    "name": "Adele - Someone Like You Live Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmI5ZWE0ZTgtZTRmMi00YzRmLWJjMTctOTU1YjNjYTRmMTRjXkEyXkFqcGc@._V1_.jpg",
+    "description": "Konser eksklusif Adele - Someone Like You yang membawa nuansa alternative rock / pop rock, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 73930,
+    "price": 1500000,
+    "date": "2025-07-15T20:00:00+07:00",
+    "location": "The Kasablanka Hall, Jakarta"
+  },
+  {
+    "id": 7,
+    "name": "The Script - Breakeven Live Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjI2MjE1Nzg4MF5BMl5BanBnXkFtZTcwMTYzMjU0NA@@._V1_.jpg",
+    "description": "Konser eksklusif The Script - Breakeven yang membawa nuansa alternative rock / pop rock, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 65991,
+    "price": 2500000,
+    "date": "2025-08-04T20:00:00+07:00",
+    "location": "The Kasablanka Hall, Jakarta"
+  },
+  {
+    "id": 8,
+    "name": "Snow Patrol - Chasing Cars Live Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjEwODQxNzU0MF5BMl5BanBnXkFtZTgwMjU3NDg5MzE@._V1_.jpg",
+    "description": "Konser eksklusif Snow Patrol - Chasing Cars yang membawa nuansa alternative rock / pop rock, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 63252,
+    "price": 2500000,
+    "date": "2025-09-04T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 9,
+    "name": "OneRepublic - Apologize Live Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzYzMjY2MF5BMl5BanBnXkFtZTcwODAyMTk2Nw@@._V1_.jpg",
+    "description": "Konser eksklusif OneRepublic - Apologize yang membawa nuansa alternative rock / pop rock, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 74760,
+    "price": 2000000,
+    "date": "2025-10-25T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 10,
+    "name": "Coldplay - The Scientist Live Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjI2MjE1Nzg4MF5BMl5BanBnXkFtZTcwMTYzMjU0NA@@._V1_.jpg",
+    "description": "Konser eksklusif Coldplay - The Scientist yang membawa nuansa alternative rock / pop rock, menampilkan aransemen live yang mendalam dan atmosferik.",
+    "quantity": 16611,
+    "price": 1800000,
+    "date": "2025-11-10T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 11,
+    "name": "Dua Lipa - Future Nostalgia Tour",
+    "genre": "Pop / Dance-pop",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmQxZTYzYmItOGYzZi00ODRhLWI3NjYtNGQzMWE4YjUzZTg0XkEyXkFqcGc@._V1_.jpg",
+    "description": "Dua Lipa akan mengguncang panggung Jakarta dengan konser 'Future Nostalgia', penuh warna, koreografi memukau, dan nuansa retro yang dipadukan dengan beat modern dance-pop.",
+    "quantity": 52000,
+    "price": 1700000,
+    "date": "2025-12-03T20:00:00+07:00",
+    "location": "Istora Senayan, Jakarta"
+  },
+  {
+    "id": 12,
+    "name": "Ed Sheeran - Mathematics Tour",
+    "genre": "Pop / Acoustic",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BODIyZWRjYmMtYjI5ZS00OWY3LWE3OTMtMGE2M2U0MGUzNDUyXkEyXkFqcGc@._V1_.jpg",
+    "description": "Ed Sheeran kembali dengan tur dunia 'Mathematics' yang memukau, di mana ia akan membawakan lagu-lagu dari album terbarunya dan hits yang sudah menjadi favorit penggemar.",
+    "quantity": 70000,
+    "price": 1800000,
+    "date": "2025-12-05T20:00:00+07:00",
+    "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+  },
+  {
+    "id": 13,
+    "name": "Taylor Swift - Midnights Tour",
+    "genre": "Pop / Acoustic",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZmVjMTlkMmUtZDgwNS00ZTE1LWJlYjEtZTM2NzM2ODg5YmViXkEyXkFqcGc@._V1_.jpg",
+    "description": "Taylor Swift hadir kembali dengan 'Midnights Tour', menyajikan lagu-lagu hits dari albumnya yang penuh kisah dan emosi, dalam format yang lebih personal dan akustik.",
+    "quantity": 88000,
+    "price": 2200000,
+    "date": "2025-12-12T20:00:00+07:00",
+    "location": "Stadion Utama Gelora Bung Karno, Jakarta"
+  },
+  {
+    "id": 14,
+    "name": "Norah Jones - Nightingale Tour",
+    "genre": "Jazz / Soul",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjE1NjUyNDc4OV5BMl5BanBnXkFtZTgwNjU1NjEzMjE@._V1_.jpg",
+    "description": "Norah Jones membawa nuansa malam yang syahdu dalam tur 'Nightingale'. Dengan balutan jazz dan soul yang lembut, konser ini akan membawa penonton dalam ketenangan penuh emosi.",
+    "quantity": 18000,
+    "price": 1200000,
+    "date": "2025-09-25T20:00:00+07:00",
+    "location": "Ciputra Artpreneur Theater, Jakarta"
+  },
+  {
+    "id": 15,
+    "name": "Michael Bublé - Love Tour",
+    "genre": "Jazz / Soul",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWVlM2Q5YjctNDJkMy00Y2I1LTgwNzctYmYwYWE1NGNkZDZhXkEyXkFqcGc@._V1_.jpg",
+    "description": "Michael Bublé hadir dengan konser 'Love Tour' yang memikat hati, menampilkan aransemen jazz klasik, sentuhan soul, dan suaranya yang khas dan romantis.",
+    "quantity": 30000,
+    "price": 1900000,
+    "date": "2025-11-11T20:00:00+07:00",
+    "location": "Jakarta International Expo, Kemayoran"
+  },
+  {
+    "id": 16,
+    "name": "Alicia Keys - Keys to Soul Tour",
+    "genre": "Jazz / Soul",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc0MjE2MzcyNl5BMl5BanBnXkFtZTgwMzE0NzI5MTE@._V1_.jpg",
+    "description": "Alicia Keys akan memukau Jakarta dengan performa soulful-nya dalam 'Keys to Soul Tour', membawakan lagu-lagu penuh makna dan keindahan melodi.",
+    "quantity": 40000,
+    "price": 1600000,
+    "date": "2025-10-10T20:00:00+07:00",
+    "location": "Jakarta International Expo, Kemayoran"
+  },
+  {
+    "id": 17,
+    "name": "Paramore - This Is Why Tour",
+    "genre": "Alternative Rock / Pop Rock",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzc0MWYwZWEtOTUwZi00ZjhkLTk4ODAtNTg2ZTdiYmE5ZTY4XkEyXkFqcGc@._V1_.jpg",
+    "description": "Paramore akan kembali mengguncang Jakarta lewat konser 'This Is Why', membawa semangat alternatif rock yang enerjik dan lirik emosional yang mengena.",
+    "quantity": 55000,
+    "price": 1700000,
+    "date": "2025-09-15T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  },
+  {
+    "id": 18,
+    "name": "Lana Del Rey - Chemtrails Over The Country Club",
+    "genre": "Pop / Acoustic",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmFkZDE2ZDItZmU1YS00ZmRhLTljZTgtODQ4ZDk4Nzk4ZjA4XkEyXkFqcGc@._V1_.jpg",
+    "description": "Lana Del Rey akan hadir dengan nuansa dreamy dan melankolis khasnya dalam konser 'Chemtrails', membawakan lagu-lagu yang puitis dan penuh suasana.",
+    "quantity": 22000,
+    "price": 1900000,
+    "date": "2025-12-18T20:00:00+07:00",
+    "location": "Ciputra Artpreneur Theater, Jakarta"
+  },
+  {
+    "id": 19,
+    "name": "Sam Smith - Gloria Tour",
+    "genre": "Pop / Soul",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjNkZTcwZmQtZmEwZS00ZTI4LTk1YjEtNmM4NWI3ODAxMTBlXkEyXkFqcGc@._V1_.jpg",
+    "description": "Sam Smith kembali ke Indonesia lewat 'Gloria Tour', membawa lagu-lagu penuh perasaan dan penampilan yang penuh penghayatan serta kehangatan suara.",
+    "quantity": 48000,
+    "price": 2100000,
+    "date": "2025-11-22T20:00:00+07:00",
+    "location": "Jakarta International Expo, Kemayoran"
+  },
+  {
+    "id": 20,
+    "name": "Hozier - Unreal Unearth Tour",
+    "genre": "Alternative Rock / Soul",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWZkZTU5NzAtZDhlMi00YzAyLTkyZmEtOTUyZDdiNzlkM2RmXkEyXkFqcGc@._V1_.jpg",
+    "description": "Hozier akan menghidupkan malam Jakarta lewat 'Unreal Unearth Tour', konser dengan kekuatan vokal dan nuansa musik yang gelap, mendalam, dan penuh makna.",
+    "quantity": 39000,
+    "price": 1800000,
+    "date": "2025-12-20T20:00:00+07:00",
+    "location": "Beach City International Stadium, Ancol"
+  }
+]
