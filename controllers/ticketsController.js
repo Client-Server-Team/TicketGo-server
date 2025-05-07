@@ -38,7 +38,7 @@ class TicketsController {
         };
       }
 
-      const otherTickets = await Ticket.findAll({
+      let otherTickets = await Ticket.findAll({
         where: {
           [Op.and]: [{genre: ticket.genre}, {id: {[Op.ne]: ticketId}}],
         },
@@ -53,7 +53,7 @@ class TicketsController {
       const prompt_global = `
 
         Berdasarkan genre konser "${ticket.genre}", 
-        Berikan rekomendasi 1 konser lain dengan genre yang sama dalam bentuk json seperti berikut
+        Berikan rekomendasi 5 konser lain dengan genre yang sama dalam bentuk array of object dengan contoh json seperti berikut
 
         {
           name : 'nama dari konser',
@@ -69,11 +69,9 @@ class TicketsController {
 
       let resGlobal = await generateContent(prompt_global)
       resGlobal = JSON.parse(resGlobal.replace("```json","").replace("```",""))
-      // res.status(200).json({
-      //   resGlobal
-      // });
 
-      otherTickets.push(resGlobal)
+      // otherTickets.push(resGlobal)
+      otherTickets = resGlobal
 
       res.status(200).json({
         ticket: ticket,
