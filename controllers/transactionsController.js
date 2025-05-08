@@ -1,13 +1,13 @@
 const {Transaction, Ticket, User} = require("../models");
 
 class TransactionsController {
-    static async getTransactionById (req,res,next) {
+    static async getTransactionByUserId (req,res,next) {
         try {
-            const {id} = req.params
+            const {id} = req.user
             
-            const data = await Transaction.findOne({
+            const data = await Transaction.findAll({
                 where : {
-                    id : +id
+                    UserId : +id
                 },
                 include : [
                     {
@@ -20,16 +20,62 @@ class TransactionsController {
                 ]
             })
 
-            if (!data) {
-                throw {name : 'NotFound', message : `Transaction with id ${id} not found`}
-            }
-
             res.status(200).json(data)
 
         } catch (error) {
             next(error)
         }
     }
+
+    static async buyTicket (req,res,next) {
+        try {
+
+            const {totalPrice, totalQuantity} = req.body
+            const {id : ticketId} = req.params
+
+            const {id : userId} = req.user
+            
+
+            if (!ticketId) {
+                throw {name : 'NotFound', message : 'Ticket not found'}
+            }
+            if (!totalPrice) {
+                throw {name : 'NotFound', message : 'Total price not found'}
+            }
+            if (!totalQuantity) {
+                throw {name : 'NotFound', message : 'Total quantity not found'}
+            }
+
+            const newBody = {
+                UserId : +userId,
+                TicketId : +ticketId,
+                totalPrice : +totalPrice,
+                totalQuantity : +totalQuantity
+            }
+
+            const dataTicket = await Ticket.findOne({
+                where : {
+                    id : ticketId
+                }
+            })
+
+            if (dataTicket.quantity < totalQuantity) {
+                throw {name : 'BadRequest', message : 'Ticket not available'}
+            }
+
+            const data = await Transaction.create(newBody)
+            await Ticket.decrement('quantity', {
+                by: totalQuantity,
+                where: { id: ticketId }
+            });
+            
+            res.status(201).json(data)
+
+        } catch (error) {
+            next(error)
+        }
+    }
+
 }
 
 module.exports = TransactionsController;

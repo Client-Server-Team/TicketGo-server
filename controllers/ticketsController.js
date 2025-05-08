@@ -18,7 +18,7 @@ class TicketsController {
       if (!tickets) {
         throw {
           name: "NotFound",
-          message: `Country with id ${ticketsId} not found`,
+          message: `Ticket with id ${ticketsId} not found`,
         };
       }
       res.status(200).json(tickets);
@@ -38,48 +38,64 @@ class TicketsController {
         };
       }
 
+      const mainGenre = ticket.genre.split(",")[0].trim();
+
       let otherTickets = await Ticket.findAll({
         where: {
-          [Op.and]: [{genre: ticket.genre}, {id: {[Op.ne]: ticketId}}],
+          [Op.and]: [
+            {
+              genre: {
+                [Op.iLike]: `%${mainGenre}%`,
+              },
+            },
+            {id: {[Op.ne]: ticketId}},
+          ],
         },
+        limit: 4,
       });
 
       const otherDescriptions = otherTickets
         .map((t) => `- ${t.name}: ${t.description}`)
         .join("\n");
 
-      const prompt = `Berdasarkan genre konser "${ticket.genre}", berikut adalah rekomendasi konser lain dengan genre yang sama:\n${otherDescriptions}\n\nBerikan rekomendasi aktivitas atau tips untuk penonton konser "${ticket.name}":\n${ticket.description}`;
+      const prompt = `Berdasarkan genre konser "${ticket.genre}", berikut adalah 4 rekomendasi konser lain dengan genre yang sama:\n${otherDescriptions}\n\nBerikan rekomendasi aktivitas atau tips untuk penonton konser "${ticket.name}":\n${ticket.description}`;
       const recommendation = await generateContent(prompt);
+
       const prompt_global = `
+           Berikan rekomendasi 1 konser lain dengan genre yang sama dengan contoh json seperti berikut
 
-        Berdasarkan genre konser "${ticket.genre}", 
-        Berikan rekomendasi 5 konser lain dengan genre yang sama dalam bentuk array of object dengan contoh json seperti berikut
+          {
+            name : 'nama dari konser',
+            genre : 'genre dari konser',
+            imageUrl : 'url image dari konser',
+            description : 'deskripsi dari konser tersebut',
+            quantity : 'quantity penonton dari konser tersebut',
+            date : 'date dari konser akan berlangsung dengan format seperti berikut 2025-05-07T03:31:19.331Z',
+            location: lokasi harus 'Coming Soon'
+          }
+          `;
 
-        {
-          name : 'nama dari konser',
-          genre : 'genre dari konser',
-          imageUrl : 'url image dari konser',
-          description : 'deskripsi dari konser tersebut',
-          quantity : 'quantity penonton dari konser tersebut',
-          date : 'date dari konser akan berlangsung dengan format seperti berikut 2025-05-07T03:31:19.331Z'
-          location: 'Coming Soon'
+      let resGlobal = await generateContent(prompt_global);
+
+      let jsonMatch = resGlobal.match(/{[\s\S]*}/);
+      let resGlobalObj = null;
+      if (jsonMatch) {
+        try {
+          resGlobalObj = JSON.parse(jsonMatch[0]);
+        } catch (e) {
+          resGlobalObj = null;
         }
+      }
 
-      `;
-
-      let resGlobal = await generateContent(prompt_global)
-      resGlobal = JSON.parse(resGlobal.replace("```json","").replace("```",""))
-
-      // otherTickets.push(resGlobal)
-      otherTickets = resGlobal
+      if (resGlobalObj) {
+        otherTickets.push(resGlobalObj);
+      }
 
       res.status(200).json({
         ticket: ticket,
         recommendation,
-        otherTickets,
+        otherTickets: otherTickets,
       });
-
-
     } catch (error) {
       next(error);
     }
