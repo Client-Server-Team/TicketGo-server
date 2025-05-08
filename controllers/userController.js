@@ -38,7 +38,7 @@ class UserController {
       if (!user) {
         throw {name: "Unauthorized", message: "Invalid email/password"};
       }
-      let isValidPassword = verifyBcrypt(password, user.password);
+      let isValidPassword = await verifyBcrypt(password, user.password);
       if (!isValidPassword) {
         throw {name: "Unauthorized", message: "Invalid email/password"};
       }
