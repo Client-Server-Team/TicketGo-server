@@ -34,7 +34,7 @@ io.on("connection", async (socket) => {
       if(access_token) {
         const response = await axios({
           method: 'post',
-          url: 'http://localhost:3000/myticket/' + arg.ticketId,
+          url: 'https://p2-gp.mfaishaldp.my.id/myticket/' + arg.ticketId,
           data: {
               totalPrice : +arg.totalPrice,
               totalQuantity : +arg.totalQuantity
@@ -46,7 +46,7 @@ io.on("connection", async (socket) => {
   
         const resTicketById = await axios({
           method: 'get',
-          url: 'http://localhost:3000/tickets/' + arg.ticketId,
+          url: 'https://p2-gp.mfaishaldp.my.id/tickets/' + arg.ticketId,
           headers : {
             Authorization : 'Bearer ' + access_token
           }
@@ -68,7 +68,7 @@ io.on("connection", async (socket) => {
     if (access_token) {
       const resTicketById = await axios({
         method: 'get',
-        url: 'http://localhost:3000/tickets/' + arg.ticketId,
+        url: 'https://p2-gp.mfaishaldp.my.id/tickets/' + arg.ticketId,
         headers : {
           Authorization : 'Bearer ' + access_token
         }
