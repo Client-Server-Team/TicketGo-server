@@ -33,6 +33,9 @@ module.exports = {
       location: {
         type: Sequelize.STRING,
       },
+      audioFile: {
+        type: Sequelize.STRING,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

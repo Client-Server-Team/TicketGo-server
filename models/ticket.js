@@ -24,6 +24,7 @@ module.exports = (sequelize, DataTypes) => {
       price: DataTypes.INTEGER,
       date: DataTypes.DATE,
       location: DataTypes.STRING,
+      audioFile: DataTypes.STRING,
     },
     {
       sequelize,
